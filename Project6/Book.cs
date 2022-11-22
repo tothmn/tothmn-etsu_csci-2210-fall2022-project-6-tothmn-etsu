@@ -40,10 +40,10 @@ namespace Project6
         }
 
         /// <summary>
-        /// 
+        /// The CompareTo method determines how the SortKey function works for each key type
         /// </summary>
         /// <param name="other"></param>
-        /// <returns></returns>
+        /// <returns>The types of data being compared</returns>
         public int CompareTo(Book? other)
         {
             if(SortKey == 0)
@@ -62,7 +62,7 @@ namespace Project6
         }
 
         /// <summary>
-        /// 
+        /// The Print method displayes each book and its information in a formatted way
         /// </summary>
         public void Print()
         {
